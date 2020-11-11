@@ -1,6 +1,6 @@
 # WooCommerce REST API - JavaScript Library
 
-New JavaScript library for WooCommerce REST API, supports CommonJS (CJS) and Embedded System Module (ESM).
+New JavaScript library for WooCommerce REST API, supports CommonJS (CJS) and ECMAScript Modules (ESM).
 
 Requests are made with [Axios library](https://github.com/axios/axios) with [support to promises](https://github.com/axios/axios#promises).
 
@@ -121,7 +121,9 @@ const api = new WooCommerceRestApi({
 ## Example of use
 
 ```js
-// import WooCommerceRestApi from "@woocommerce/woocommerce-rest-api";
+// ESM
+import WooCommerceRestApi from "@woocommerce/woocommerce-rest-api";
+// CJS
 const WooCommerceRestApi = require("@woocommerce/woocommerce-rest-api").default;
 
 const api = new WooCommerceRestApi({
