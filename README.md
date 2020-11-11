@@ -4,14 +4,12 @@ New JavaScript library for WooCommerce REST API, supports CommonJS (CJS) and ECM
 
 Requests are made with [Axios library](https://github.com/axios/axios) with [support to promises](https://github.com/axios/axios#promises).
 
-[![build status](https://secure.travis-ci.org/woocommerce/woocommerce-rest-api-js-lib.svg)](http://travis-ci.org/woocommerce/woocommerce-rest-api-js-lib)
-[![dependency status](https://david-dm.org/woocommerce/woocommerce-rest-api-js-lib.svg)](https://david-dm.org/woocommerce/woocommerce-rest-api-js-lib)
-[![npm version](https://img.shields.io/npm/v/@woocommerce/woocommerce-rest-api.svg)](https://www.npmjs.com/package/@woocommerce/woocommerce-rest-api)
+[![npm version](https://img.shields.io/npm/v/@reformosoftware/woocommerce-rest-api.svg)](https://www.npmjs.com/package/@reformosoftware/woocommerce-rest-api)
 
 ## Installation
 
 ```
-npm install --save @woocommerce/woocommerce-rest-api
+npm install --save @reformosoftware/woocommerce-rest-api
 ```
 
 ## Getting started
@@ -26,7 +24,7 @@ Check out the WooCommerce API endpoints and data that can be manipulated in <htt
 ### ESM example:
 
 ```js
-import WooCommerceRestApi from "@woocommerce/woocommerce-rest-api";
+import WooCommerceRestApi from "@reformosoftware/woocommerce-rest-api";
 
 const api = new WooCommerceRestApi({
   url: "http://example.com",
@@ -39,7 +37,7 @@ const api = new WooCommerceRestApi({
 ### CJS example:
 
 ```js
-const WooCommerceRestApi = require("@woocommerce/woocommerce-rest-api").default;
+const WooCommerceRestApi = require("@reformosoftware/woocommerce-rest-api").default;
 
 const api = new WooCommerceRestApi({
   url: "http://example.com",
@@ -122,9 +120,9 @@ const api = new WooCommerceRestApi({
 
 ```js
 // ESM
-import WooCommerceRestApi from "@woocommerce/woocommerce-rest-api";
+import WooCommerceRestApi from "@reformosoftware/woocommerce-rest-api";
 // CJS
-const WooCommerceRestApi = require("@woocommerce/woocommerce-rest-api").default;
+const WooCommerceRestApi = require("@reformosoftware/woocommerce-rest-api").default;
 
 const api = new WooCommerceRestApi({
   url: "http://example.com",
@@ -220,4 +218,4 @@ api.delete("products/1", {
 
 ## Changelog
 
-[See changelog for details](https://github.com/woocommerce/woocommerce-rest-api-js-lib/blob/master/CHANGELOG.md)
+[See changelog for details](https://github.com/Reformo-Software/woocommerce-rest-api-js-lib/blob/master/CHANGELOG.md)
